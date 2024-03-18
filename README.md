@@ -15,7 +15,7 @@ PoFAT is a Python-based GUI application designed to assist in the creation of im
 
 To run PoFAT, you need to have Python installed on your system along with the following libraries:
 - Tkinter (for the GUI)
-- PIL (Python Imaging Library, for image processing)
+- Pillow (PIL; Python Imaging Library, for image processing)
 
 ## Installation
 
