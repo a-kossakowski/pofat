@@ -49,7 +49,7 @@ class ImagePanelCreator(tk.Tk):  # main application class
 
     def upload_action(self):
         # file upload dialog
-        filenames = filedialog.askopenfilenames(title="Select Figures", filetypes=[("Image files", "*.jpg *.jpeg *.png", ".svg", ".gif")])
+        filenames = filedialog.askopenfilenames(title="Select Figures", filetypes=[("Image files", "*.jpg *.jpeg *.png *.svg *.gif")])
         for i, filename in enumerate(filenames, start=1):
             self.images[chr(64+i)] = filename  # map images to alphabet labels
         print(f"{len(filenames)} files loaded.")
@@ -76,23 +76,28 @@ class ImagePanelCreator(tk.Tk):  # main application class
         Thread(target=self.process_generate_panel).start()
 
     def process_generate_panel(self):
-        # panel generation processing
-        h_space = int(self.h_space_entry.get())
-        v_space = int(self.v_space_entry.get())
-        h_margin = int(self.h_margin_entry.get())
-        v_margin = int(self.v_margin_entry.get())
-        grid_layout = self.grid_entry.get()
+    	# panel generation processing
+    	h_space = int(self.h_space_entry.get())
+    	v_space = int(self.v_space_entry.get())
+    	h_margin = int(self.h_margin_entry.get())
+    	v_margin = int(self.v_margin_entry.get())
+    	grid_layout = self.grid_entry.get()
 
-        image_paths = list(self.resized_images.values()) if self.resized_images else list(self.images.values())
-        images_list = [Image.open(path) for path in image_paths]  # open images
+    	image_paths_or_objs = list(self.resized_images.values()) if self.resized_images else list(self.images.values())
+    	images_list = []
+    	for item in image_paths_or_objs:
+    	    if isinstance(item, Image.Image):  # check if the item is already 'Image' object
+    	        images_list.append(item)
+    	    else:
+    	        images_list.append(Image.open(item))  # open the image if it's a path
 
-        label_pos = self.selected_label_position.get()
-        if images_list:
-            panel = generate_panel(images_list, grid_layout, h_space, v_space, h_margin, v_margin, label_pos)
-            panel.save("panel.png")  # save generated panel
-            print("Panel generated and saved as './panel.png'.")
-        else:
-            print("No images to arrange.")
+    	label_pos = self.selected_label_position.get()
+    	if images_list:
+    	    panel = generate_panel(images_list, grid_layout, h_space, v_space, h_margin, v_margin, label_pos)
+    	    panel.save("panel.png")  # save generated panel
+    	    print("Panel generated and saved as './panel.png'.")
+    	else:
+    	    print("No images to arrange.")
 
 
 if __name__ == "__main__":
