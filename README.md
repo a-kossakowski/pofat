@@ -5,7 +5,6 @@
 - [What is PoFAT?](#what-is-pofat)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
 - [Example of a Panel Generated Using PoFAT](#example-of-a-panel-generated-using-pofat)
 - [Modules](#modules)
 - [Contributing](#contributing)
@@ -77,12 +76,6 @@ python pofat_gui.py
 
 - If you encounter any issues running `python pofat_gui.py`, ensure your Python version is up to date and compatible with PoFAT. PoFAT is developed for Python 3.x.
 - For Windows users, if Python is not recognized as an internal or external command, ensure that Python and pip are correctly added to your system's PATH as part of the installation process.
-
-## Usage
-
-1. Navigate to the directory containing the `pofat_gui.py` script.
-2. Run the script using Python: `python pofat_gui.py`
-3. The PoFAT GUI will open. Follow the on-screen instructions to upload images, set configurations, and generate your panel.
 
 ### Uploading Figures
 
