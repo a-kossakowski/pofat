@@ -1,4 +1,6 @@
-# Table of Contents
+# Panel of Figures Assembly Tool (PoFAT)
+
+## Table of Contents
 
 - [What is PoFAT?](#what-is-pofat)
 - [Features](#features)
