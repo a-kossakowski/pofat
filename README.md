@@ -4,7 +4,7 @@
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Example of the panel generated using PoFAT](#example-of-the-panel-generated-using-pofat)
+- [Example of a Panel Generated Using PoFAT](#example-of-a-panel-generated-using-pofat)
 - [Modules](#modules)
 - [Contributing](#contributing)
 
