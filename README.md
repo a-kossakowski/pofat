@@ -17,11 +17,52 @@ To run PoFAT, you need to have Python installed on your system along with the fo
 - Tkinter (for the GUI)
 - Pillow (PIL; Python Imaging Library, for image processing)
 
-## Installation
+## Getting Started
 
-1. Ensure you have Python installed on your system.
-2. Install PIL if you haven't already: `pip install Pillow`
-3. Clone this repository or download the scripts to a local directory.
+Follow these steps to get PoFAT up and running on your system, regardless of whether you're using Linux, Windows, or Mac.
+
+### Step 1: Prerequisites
+
+Ensure Python and pip (Python's package installer) are installed on your system. PoFAT requires Python to run, and pip to install necessary libraries.
+
+- **Linux/Mac**: Python usually comes pre-installed. You can check by running `python --version` or `python3 --version` in your terminal.
+- **Windows**: If Python is not installed, download it from [python.org](https://www.python.org/downloads/) and follow the installation instructions. Ensure you select the option to add Python to PATH during installation.
+
+### Step 2: Clone or Download the Repository
+
+- **Option 1: Clone with Git (recommended)**
+  - Open a terminal (Linux/Mac) or Git Bash/command prompt (Windows).
+  - Navigate to the directory where you want to place the PoFAT project.
+  - Clone the repository:
+    ```
+    git clone https://github.com/a-kossakowski/pofat.git
+    ```
+  - This command creates a new directory named `pofat` containing the project files.
+
+- **Option 2: Download ZIP**
+  - Visit the [PoFAT repository](https://github.com/a-kossakowski/pofat) on GitHub.
+  - Click the green **Code** button, then click **Download ZIP**.
+  - Extract the ZIP file to your desired location.
+
+### Step 3: Install Required Libraries
+
+- Navigate to the `pofat` directory in your terminal or command prompt.
+`cd path/to/pofat`
+- Install the required Pillow library using pip:
+`pip install Pillow`
+
+### Step 4: Run PoFAT
+
+- Within the `pofat` directory, run the main script:
+`python pofat_gui.py`
+- This command launches the PoFAT GUI, where you can begin uploading images, configuring your panel, and generating the final image panel.
+
+### Troubleshooting
+
+- If you encounter any issues running `python pofat_gui.py`, ensure your Python version is up to date and compatible with PoFAT. PoFAT is developed for Python 3.x.
+- For Windows users, if Python is not recognized as an internal or external command, ensure that Python and pip are correctly added to your system's PATH as part of the installation process.
+
+With these steps, users on Linux, Windows, and Mac should be able to get PoFAT running smoothly on their systems.
 
 ## Usage
 
