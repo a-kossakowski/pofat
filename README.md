@@ -5,7 +5,7 @@
 - [What is PoFAT?](#what-is-pofat)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Example of a Panel Generated Using PoFAT](#example-of-a-panel-generated-using-pofat)
+- [Example of a Generated Panel](#example-of-a-generated-panel)
 - [Modules](#modules)
 - [Contributing](#contributing)
 
@@ -96,7 +96,7 @@ Click on the "Upload Figures" button and select the images you want to include i
 
 Once all configurations are set, click on the "Generate Panel" button to create your image panel. The generated panel will be saved as `panel.png` in the same directory as the script.
 
-#### Example of a Panel Generated Using PoFAT
+#### Example of a Generated Panel
 
 ![Panel of three figures in 2x2 grid layout](./test_imgs/panel.png)
 
