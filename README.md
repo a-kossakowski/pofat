@@ -1,3 +1,24 @@
+## Table of Contents
+
+- [Panel of Figures Assembly Tool (PoFAT)](#panel-of-figures-assembly-tool-pofat)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Getting Started](#getting-started)
+  - [Step 1: Prerequisites](#step-1-prerequisites)
+  - [Step 2: Clone or Download the Repository](#step-2-clone-or-download-the-repository)
+  - [Step 3: Install Required Libraries](#step-3-install-required-libraries)
+  - [Step 4: Run PoFAT](#step-4-run-pofat)
+  - [Troubleshooting](#troubleshooting)
+- [Usage](#usage)
+  - [Uploading Figures](#uploading-figures)
+  - [Configuring the Panel](#configuring-the-panel)
+  - [Generating the Panel](#generating-the-panel)
+- [Example of the panel generated using PoFAT](#example-of-the-panel-generated-using-pofat)
+- [Modules](#modules)
+- [Contributing](#contributing)
+
+
 # Panel of Figures Assembly Tool (PoFAT)
 
 PoFAT is a Python-based GUI application designed to assist in the creation of image panels from individual figures. It allows users to upload multiple images, optionally resize them, and then generate a single panel image with customizable configurations such as grid layout, spacing, and margins. Label positions can also be specified for each figure in the panel.
@@ -10,12 +31,6 @@ PoFAT is a Python-based GUI application designed to assist in the creation of im
 - **Adjustable Margins and Spacing**: Set horizontal and vertical spacing between images, as well as margins.
 - **Label Positioning**: Choose the position of labels on each figure in the panel.
 - **Panel Generation**: Generate and save the final image panel with the configured settings.
-
-## Prerequisites
-
-To run PoFAT, you need to have Python installed on your system along with the following libraries:
-- Tkinter (for the GUI)
-- Pillow (PIL; Python Imaging Library, for image processing)
 
 ## Getting Started
 
