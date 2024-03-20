@@ -1,6 +1,6 @@
 ## Table of Contents
 
-- [What is PoFAT?](#what-is-pofat?)
+- [What is PoFAT?](#what-is-pofat)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
