@@ -38,6 +38,9 @@ Ensure Python and pip (Python's package installer) are installed on your system.
 - **Option 1: Clone with Git (recommended)**
   - Open a terminal (Linux/Mac) or Git Bash/command prompt (Windows).
   - Navigate to the directory where you want to place the PoFAT project.
+    ```
+    cd path/to/pofat
+    ```
   - Clone the repository:
     ```
     git clone https://github.com/a-kossakowski/pofat.git
@@ -52,14 +55,20 @@ Ensure Python and pip (Python's package installer) are installed on your system.
 ### Step 3: Install Required Libraries
 
 - Navigate to the `pofat` directory in your terminal or command prompt.
-`cd path/to/pofat`
+```
+cd path/to/pofat
+```
 - Install the required Pillow library using pip:
-`pip install Pillow`
+```
+pip install Pillow
+```
 
 ### Step 4: Run PoFAT
 
 - Within the `pofat` directory, run the main script:
-`python pofat_gui.py`
+```
+python pofat_gui.py
+```
 - This command launches the PoFAT GUI, where you can begin uploading images, configuring your panel, and generating the final image panel.
 
 ### Troubleshooting
