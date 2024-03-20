@@ -44,7 +44,7 @@ Ensure Python and pip (Python's package installer) are installed on your system.
     ```
   - Clone the repository:
     ```
-    git clone https://github.com/a-kossakowski/pofat.git
+    git clone https://github.com/a-kossakowski/pofat
     ```
   - This command creates a new directory named `pofat` containing the project files.
 
