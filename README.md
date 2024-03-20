@@ -1,4 +1,4 @@
-## Table of Contents
+# Table of Contents
 
 - [What is PoFAT?](#what-is-pofat)
 - [Features](#features)
@@ -9,7 +9,7 @@
 - [Contributing](#contributing)
 
 
-# What is PoFAT?
+## What is PoFAT?
 
 PoFAT is a Python-based GUI application designed to assist in the creation of image panels from individual figures. It allows users to upload multiple images, optionally resize them, and then generate a single panel image with customizable configurations such as grid layout, spacing, and margins. Label positions can also be specified for each figure in the panel.
 
