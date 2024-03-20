@@ -78,8 +78,6 @@ python pofat_gui.py
 - If you encounter any issues running `python pofat_gui.py`, ensure your Python version is up to date and compatible with PoFAT. PoFAT is developed for Python 3.x.
 - For Windows users, if Python is not recognized as an internal or external command, ensure that Python and pip are correctly added to your system's PATH as part of the installation process.
 
-With these steps, users on Linux, Windows, and Mac should be able to get PoFAT running smoothly on their systems.
-
 ## Usage
 
 1. Navigate to the directory containing the `pofat_gui.py` script.
