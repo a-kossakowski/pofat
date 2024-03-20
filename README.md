@@ -72,6 +72,10 @@ python pofat_gui.py
 ```
 - This command launches the PoFAT GUI, where you can begin uploading images, configuring your panel, and generating the final image panel.
 
+### GUI Presentation
+
+![PoFAT's initial GUI](./test_imgs/gui_img.png)
+
 ### Troubleshooting
 
 - If you encounter any issues running `python pofat_gui.py`, ensure your Python version is up to date and compatible with PoFAT. PoFAT is developed for Python 3.x.
