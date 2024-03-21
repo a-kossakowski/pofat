@@ -49,8 +49,7 @@ Ensure Python and pip (Python's package installer) are installed on your system.
   - This command creates a new directory named `pofat` containing the project files.
 
 - **Option 2: Download ZIP**
-  - Visit the [PoFAT repository](https://github.com/a-kossakowski/pofat) on GitHub.
-  - Click the green **Code** button, then click **Download ZIP**.
+  - Click the green **Code** button on the front page of this repository, then click **Download ZIP**.
   - Extract the ZIP file to your desired location.
 
 ### Step 3: Install Required Libraries
